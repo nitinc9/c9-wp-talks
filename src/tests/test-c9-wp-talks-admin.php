@@ -2,7 +2,7 @@
 /**
  * C9_Wp_Talks_Admin Unit Tests.
  *
- * @package C9_Wp_Talks_Admin_Test
+ * @package C9_Wp_Talks
  */
 
 /**
