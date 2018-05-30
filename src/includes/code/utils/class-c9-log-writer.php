@@ -12,7 +12,7 @@ if (!class_exists('C9_Log_Writer')) {
   
   
     public function __construct($enabled=false) {
-      $this->enabled = $enabled;
+        $this->enabled = ((is_bool($enabled) && $enabled) || ($enabled == 'true')) ? true : false;
     }
   
     /**
